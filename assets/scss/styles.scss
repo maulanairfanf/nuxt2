@@ -1,0 +1,24 @@
+$primary: #ff9100;
+$primary-light: findLightColor($primary);
+
+$secondary: #ff4ae7;
+$secondary-light: findLightColor($secondary);
+
+$colors: (
+  "primary": (
+    $primary,
+    $primary-light,
+  ),
+  "secondary": (
+    $secondary,
+    $secondary-light,
+  ),
+);
+
+$snackbar-background-color: $primary;
+
+$pagination-current-background-color: $primary;
+$pagination-current-border-color: $primary;
+
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
